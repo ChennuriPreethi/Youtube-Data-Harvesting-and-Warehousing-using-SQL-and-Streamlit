@@ -33,7 +33,7 @@ Pandas: A data manipulation library used for data processing and analysis.
 7. Altogether, this approach involves building a simple UI with Streamlit, retrieving data from the YouTube API, storing it in MySQL database, querying the data warehouse and displaying the data in the Streamlit app.
 
 # Database Schema
-# 1. Channels_Table
+## 1. Channels_Table
 
 Channel ID (Primary Key)
 
@@ -47,7 +47,7 @@ Total Videos
 
 Description
 
-# 2. Videos_Table
+## 2. Videos_Table
 
 Video ID (Primary Key)
 
@@ -65,7 +65,7 @@ Comment Count
 
 Duration
 
-# 3. Comments_Table
+## 3. Comments_Table
 
 Comment ID (Primary Key)
 
@@ -86,22 +86,22 @@ Reduced redundancy
 Analytical query efficiency
 
 # How to Run the Project
-# 1. Clone Repository
+## 1. Clone Repository
 git clone https://github.com/ChennuriPreethi/Youtube-Data-Harvesting-and-Warehousing-using-SQL-and-Streamlit.git
 cd Youtube-Data-Harvesting-and-Warehousing-using-SQL-and-Streamlit
-# 2. Create Virtual Environment
-# Windows
+## 2. Create Virtual Environment
+### Windows
 python -m venv venv
 venv\Scripts\activate
-# Mac/Linux
+### Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
-# 3. Install Dependencies
+## 3. Install Dependencies
 pip install -r requirements.txt
-# 4. Setup MySQL Database
+## 4. Setup MySQL Database
 CREATE DATABASE Project_1;
 USE Project_1;
-# 5. Run Streamlit App
+## 5. Run Streamlit App
 streamlit run Home.py
 
 # Skills Demonstrated
