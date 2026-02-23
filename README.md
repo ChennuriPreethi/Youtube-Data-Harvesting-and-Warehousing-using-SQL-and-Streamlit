@@ -87,8 +87,10 @@ Analytical query efficiency
 
 # How to Run the Project
 ## 1. Clone Repository
+```bash
 git clone https://github.com/ChennuriPreethi/Youtube-Data-Harvesting-and-Warehousing-using-SQL-and-Streamlit.git
 cd Youtube-Data-Harvesting-and-Warehousing-using-SQL-and-Streamlit
+```
 ## 2. Create Virtual Environment
 ### Windows
 python -m venv venv
@@ -106,13 +108,13 @@ streamlit run Home.py
 
 # Skills Demonstrated
 
-✔ API Integration
-✔ Data Extraction & Transformation
-✔ Relational Database Design
-✔ SQL Querying & Aggregation
-✔ Data Warehousing Concepts
-✔ Frontend Integration with Backend Database
-✔ End-to-End ETL Pipeline Development
+- API Integration  
+- Data Extraction & Transformation  
+- Relational Database Design  
+- SQL Querying & Aggregation  
+- Data Warehousing Concepts  
+- Frontend Integration with Backend Database  
+- End-to-End ETL Pipeline Development  
 
 # Why This Project Matters
 
